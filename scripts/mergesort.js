@@ -64,7 +64,7 @@ async function mergeSort(arr, l, r) {
 }
 
 async function merge_sort() {
-	console.log("Merge Sort running");
+	//console.log("Merge Sort running");
 	disableInputs();
 	let arr = document.querySelectorAll('.bar');
 	await mergeSort(arr, 0, parseInt(arr.length) - 1);
